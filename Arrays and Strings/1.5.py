@@ -1,4 +1,4 @@
-def oneAway(string1, string2):
+ def oneAway(string1, string2):
     dict_char = {}
     for char in string1:
         if char in dict_char:
