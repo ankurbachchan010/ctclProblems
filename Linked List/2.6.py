@@ -46,8 +46,6 @@ def isPalindrome(head, len):
     elif len == 1:
         return head.next
     res = isPalindrome(head.next, len-2)
-    rsiaxt = res.data
-    actual = head.data
     if res.data == head.data:
         return res.next
     else:
