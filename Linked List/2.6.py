@@ -52,12 +52,6 @@ def isPalindrome(head, len):
         return False
 
 
-
-
-
-
-
-
 input_list = Linkedlist()
 input_list.insert(1)
 input_list.insert(0)
